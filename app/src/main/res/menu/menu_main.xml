@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.com.recyclerviewdemo.MainActivity">
+    <!--RecyCleView线下布局-->
+    <item
+        android:id="@+id/recy_list_h"
+        android:orderInCategory="100"
+        android:title="RecyCleView横向"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recy_list_V"
+        android:orderInCategory="100"
+        android:title="RecyCleView纵向"
+        app:showAsAction="never" />
+
+
+    <!--RecyCleView网格布局-->
+    <item
+        android:id="@+id/recy_grid_h"
+        android:orderInCategory="100"
+        android:title="RecyCleView网格布局横向"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recy_grid_v"
+        android:orderInCategory="100"
+        android:title="RecyCleView网格布局纵向"
+        app:showAsAction="never" />
+
+
+    <!--RecyCleView瀑布流布局-->
+    <item
+        android:id="@+id/recy_stragg_h"
+        android:orderInCategory="100"
+        android:title="RecyCleView瀑布流布局横向"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/recy_stragg_v"
+        android:orderInCategory="100"
+        android:title="RecyCleView瀑布流布局纵向"
+        app:showAsAction="never" />
+</menu>
